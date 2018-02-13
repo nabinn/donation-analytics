@@ -1,5 +1,5 @@
 ## donation-analytics
-This repo contains solution to [insight data engineering chellange](https://github.com/InsightDataScience/donation-analytics). 
+This repo contains solution to [insight data engineering challenge](https://github.com/InsightDataScience/donation-analytics). 
 
 ## Requirements
 The code is written in Python 3.6.2.
