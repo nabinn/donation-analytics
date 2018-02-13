@@ -16,17 +16,6 @@ FIELDS_LIST = FIELDS.replace('\n', '').replace('\t', '').split(",")
 field_to_index = {k: v for v, k in enumerate(FIELDS_LIST)}
 
 
-def print_donations(mydata):
-    for k1, v1 in mydata.items():
-        print(f"{k1}:")
-        for k2, v2 in v1.items():
-            print(f"\t{k2}:")
-            for k3, v3 in v2.items():
-                print(f"\t\t{k3}:")
-                for k4, v4 in v3.items():
-                    print(f"\t\t\t{k4}=>{v4}")
-
-
 def get_percentile_index(n, p):
     """Referenced from https://en.wikipedia.org/wiki/Percentile
     :param n: size of sorted array
